@@ -1,5 +1,5 @@
 body {
-    background-color: #E43;
+    background-color: #594D3E;
 }
 
 .container {
@@ -13,12 +13,21 @@ body {
     content : '';
 }
 
+.barContainer{
+    width: 98%;
+    height: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #8C8A68;
+
+}
+
 .bg-items {
     padding: 20px;
     width  : 240px;
     height : 160px;
     margin : 20px;
-    background-color: white;
+    background-color: #D9C8B4;
     float  : left;
     cursor : pointer;
     box-shadow : 3px 3px 5px 0px rgba(0,0,0,0.5);
@@ -40,7 +49,7 @@ body {
     top : 0;
     left: 0;
     font-family : georgia;
-    color       : #fff;
+    color       : #F2E5D5;
     opacity : 0;
     transition : opacity .8s;
 }
@@ -77,7 +86,7 @@ body {
     bottom : 100%;
     width : inherit;
     height: inherit;
-    background-color : #e43;
+    background-color : #594D3E;
     transition   : all .3s;
 }
 
@@ -92,7 +101,7 @@ body {
 .bg-items:nth-child(15n-13) .l {
     width : inherit;
     height: inherit;
-    background-color : #e43;
+    background-color : #594D3E;
     transition   : all .3s;
     left   : 0;
     bottom : 100%;
@@ -112,7 +121,7 @@ body {
     top  : 0;
     width : inherit;
     height: inherit;
-    background-color : #e43;
+    background-color : #594D3E;
     transition   : all .3s;
     transform: scale(0,0);
 }
@@ -129,7 +138,7 @@ body {
 .bg-items:nth-child(15n-11) .l {
     width : inherit;
     height: inherit;
-    background-color : #e43;
+    background-color : #594D3E;
     transition   : all .3s;
     left : 0;
     top  : 0;
@@ -146,7 +155,7 @@ body {
 /* five */
 
 .bg-items:nth-child(15n-10) .l {
-    border-top   : 161px solid #e43;
+    border-top   : 161px solid #594D3E;
     border-right : 241px solid transparent;
     top  : -160px;
     left : -240px;
@@ -154,7 +163,7 @@ body {
 }
 
 .bg-items:nth-child(15n-10) .ll {
-    border-bottom : 161px solid #e43;
+    border-bottom : 161px solid #594D3E;
     border-left   : 241px solid transparent;
     bottom : -160px;
     right  : -240px;
@@ -178,7 +187,7 @@ body {
 .bg-items:nth-child(15n-9) .l {
     width  : 120px;
     height : 80px;
-    background-color: #e43;
+    background-color: #594D3E;
     top  : -80px;
     left : -240px;
     transition   : all .3s;			
@@ -187,7 +196,7 @@ body {
 .bg-items:nth-child(15n-9) .ll {
     width  : 120px;
     height : 80px;
-    background-color: #e43;
+    background-color: #594D3E;
     top   : -80px;
     right : -240px;
     transition   : all .3s;			
@@ -196,7 +205,7 @@ body {
 .bg-items:nth-child(15n-9) .lll {
     width  : 120px;
     height : 80px;
-    background-color: #e43;
+    background-color: #594D3E;
     bottom: -80px;
     right : -240px;
     transition   : all .3s;
@@ -205,7 +214,7 @@ body {
 .bg-items:nth-child(15n-9) .lV {
     width  : 120px;
     height : 80px;
-    background-color: #e43;
+    background-color: #594D3E;
     bottom : -80px;
     left   : -240px;
     transition   : all .3s;
@@ -241,7 +250,7 @@ body {
     width  : 240px;
     height : 160px;
     top    : 0;
-    background-color : #e43;
+    background-color : #594D3E;
     opacity : 0;
     transition   : all .3s;
 }
@@ -257,14 +266,14 @@ body {
     top           : 30%;
     left          : 10%;
     border-right  :  100px solid transparent;
-    border-bottom :  70px  solid #e43;
+    border-bottom :  70px  solid #594D3E;
     border-left   :  100px solid transparent;
     transform: rotate(35deg) scale(0,0);
     transition : all .6s;
 }
 
 .bg-items:nth-child(15n-7) .l:before {
-    border-bottom: 80px solid #e43;
+    border-bottom: 80px solid #594D3E;
     border-left  : 30px solid transparent;
     border-right : 30px solid transparent;
     position: absolute;
@@ -280,13 +289,13 @@ body {
 .bg-items:nth-child(15n-7) .l:after {
     position: absolute;
     display: block;
-    color: #e43;
+    color: #594D3E;
     top: 3px;
     left: -105px;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid #e43;
+    border-bottom: 70px solid #594D3E;
     border-left: 100px solid transparent;
     transform: rotate(-70deg);
     content: '';
@@ -304,7 +313,7 @@ body {
     height: 0;
     top   : 50%;
     left  : 50%;
-    background-color: #e43;
+    background-color: #594D3E;
     border-radius : 50%;
     transition : all .3s;
 }
@@ -323,7 +332,7 @@ body {
 .bg-items:nth-child(15n-5)>.items>div:not(.details) {
     width  : inherit;
     height : 40px;
-    background-color: #e43;
+    background-color: #594D3E;
     left   : 100%;
 }
 
@@ -372,7 +381,7 @@ body {
 .bg-items:nth-child(15n-4)>.items>div:not(.details) {
     width  : inherit;
     height : 40px;
-    background-color: #e43;
+    background-color: #594D3E;
     transition : all .3s;
 }
 
@@ -406,7 +415,7 @@ body {
 .bg-items:nth-child(15n-3)>.items>div:not(.details) {
     width  : inherit;
     height : 40px;
-    background-color: #e43;
+    background-color: #594D3E;
     transition : all .3s;
     top : -40px;
 }
@@ -452,7 +461,7 @@ body {
 .bg-items:nth-child(15n-2) .l, .bg-items:nth-child(15n-2) .ll{
     width : 120px;
     height: inherit;
-    background-color : #e43;
+    background-color : #594D3E;
     top : 0;
     transition : all .3s;
 }
@@ -480,7 +489,7 @@ body {
 .bg-items:nth-child(15n-1) .l, .bg-items:nth-child(15n-1) .ll{
     width : 120px;
     height: inherit;
-    background-color : #e43;
+    background-color : #594D3E;
     top : 0;
     transition : all .3s;
 }
@@ -508,7 +517,7 @@ body {
 .bg-items:nth-child(15n) .l {
     border-style : solid;
     border-width : 80px 120px 0 120px;			
-    border-color : #e43 transparent transparent transparent;
+    border-color : #594D3E transparent transparent transparent;
     transition   : all .3s;
     top : -80px;
 }
@@ -516,7 +525,7 @@ body {
 .bg-items:nth-child(15n) .ll {
     border-style : solid;
     border-width : 80px 120px 80px 0;	
-    border-color : transparent #e43 transparent transparent;
+    border-color : transparent #594D3E transparent transparent;
     right : -120px;
     top   : 0;
     transition   : all .3s;
@@ -525,7 +534,7 @@ body {
 .bg-items:nth-child(15n) .lll {
     border-style : solid;
     border-width : 0 120px 80px 120px;
-    border-color : transparent transparent #e43 transparent;
+    border-color : transparent transparent #594D3E transparent;
     bottom : -80px;
     transition   : all .3s;
 }
@@ -533,7 +542,7 @@ body {
 .bg-items:nth-child(15n) .lV {
     border-style : solid;
     border-width : 80px 0 80px 120px;	
-    border-color : transparent transparent transparent #e43;
+    border-color : transparent transparent transparent #594D3E;
     left : -120px;
     top   : 0;
     transition   : all .3s;
