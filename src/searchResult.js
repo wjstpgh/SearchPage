@@ -1,7 +1,10 @@
 import React from "react";
 import SearchItem from "./searchItem";
 
-function SearchResult(){
+function SearchResult(p){
+
+    
+
     return(
         <>
         <SearchItem/>
