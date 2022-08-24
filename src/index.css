@@ -23,9 +23,39 @@ body {
     height: 100%;
     padding: 10px;
     margin: 15px 0;
-    background-color: #8C8A68;
-    opacity: 40%;
+    background-color: #403522;
+    opacity: 30%;
     border-radius: 5px;
+    transition: 2s;
+}
+
+.barContainer:hover{
+    opacity: 100%;
+    transition: .4s;
+}
+
+.barForm{
+    width: 100%;
+}
+
+.barForm>img{
+    width: 32px;
+    margin: 0 5px;
+    float: left;
+}
+
+.barForm>input{
+    width: 90%;
+    font-size: 1.3rem;
+    padding: 4px 8px;
+    margin: 0 15px;
+    border: none;
+    background-color: #403522;
+    color: #F2E5D5;
+}
+
+.barForm>input:focus{
+    outline: none;
 }
 
 .bg-items {
