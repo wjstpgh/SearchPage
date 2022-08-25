@@ -20,7 +20,7 @@ function SearchBar(prop){
                 <img src={searchIcon}/>
                 <input  type='text'
                         className=""
-                        placeholder="앨범넘버 혹은 사진설명으로 검색하세요"
+                        placeholder="Album No.  or  Title"
                         onChange={handleChange} />
             </form>
         </div>
