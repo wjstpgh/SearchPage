@@ -5,7 +5,7 @@ function SearchItem(){
         <>
         <div className="bg-items">
             <div className="items" >
-                <img src='https://picsum.photos/240/160/?image=1082'></img>
+                <img src='https://picsum.photos/240/160/?image=21'></img>
                 <div className="l"></div>
                 <div className="ll"></div>
                 <div className="lll"></div>
