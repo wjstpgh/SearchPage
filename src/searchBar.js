@@ -19,9 +19,9 @@ function SearchBar(prop){
             <form onSubmit={handleSubmit} className='barForm'>
                 <img src={searchIcon}/>
                 <input  type='text'
-                        className=""
                         placeholder="Album No.  or  Title"
                         onChange={handleChange} />
+                {prop.cnt} pictures
             </form>
         </div>
         </>
