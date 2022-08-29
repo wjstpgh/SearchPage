@@ -16,8 +16,8 @@ function SearchResult(prop){
     },[])
 
     album.forEach((a) => {
-        if( a.albumId===v ||
-            a.title.indexOf(v)!==-1){
+        if( a.albumId==v ||
+            a.title.indexOf(v)!=-1){
                 row.push(
                     <SearchItem key={a.id}
                                 id={a.id}
