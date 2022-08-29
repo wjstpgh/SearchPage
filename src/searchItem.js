@@ -6,8 +6,8 @@ function SearchItem(p){
     return(
         <>
         <div className="bg-items">
-            <div className="items" >
-                <img src={p.url} alt=' Cannot Get Picture'></img>
+            <div className="items">
+                <img src={p.url} alt=' load Err'></img>
                 <div className="l"></div>
                 <div className="ll"></div>
                 <div className="lll"></div>
