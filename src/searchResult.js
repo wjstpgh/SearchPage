@@ -1,9 +1,12 @@
 import React,{useState,useEffect} from "react";
 import SearchItem from "./searchItem";
 import axios from "axios";
+import Loading from "./Loading";
 
 function SearchResult(prop){
     const [album,setAlbum]=useState([]);
+    const [page,setPage]=useState(1);
+    const {}
     let row=[];
     let v=prop.searchValue;
     let cnt=0;
@@ -34,6 +37,7 @@ function SearchResult(prop){
     return(
         <>
         {row}
+        {isLoading && <div ref={observer}><Loading/></div>}
         </>
     )
 }
